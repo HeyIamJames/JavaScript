@@ -1,0 +1,21 @@
+<html>
+  <head>
+  <div class="Inputs">
+  Gussing Game with 5 attempts
+  </head>
+	<fieldset>
+	 <link rel="Stylesheet" type="text/css" href="A3.css">
+	 <legend>Guess An Interger 1-10</legend>
+	 <label for="guess">Your Guess:</label>
+	 <input type="text" id="guess" />
+	 <input type="button" onclick="yourGuess()" value="submit" /><br />
+	 <input type="button" id="showguesses" onclick="showGuesses()" value="Show My Guesses" />  
+	 <input type="button" onclick="generateNumberToGuess(true)" value="New Game" /><br />
+	</fieldset>
+	<fieldset id="guesses" class="guesses">
+	 <legend> Output </legend>
+	 <textarea id="output" name="output" rows="5" style="width: 100%;"></textarea>
+	  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	  <script src="A2.js"></script>
+	</fieldset>
+</html>
